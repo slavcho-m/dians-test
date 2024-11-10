@@ -7,3 +7,6 @@ DB_PASSWORD="db password here"<br/>
 DB_HOST="db host here"<br/>
 DB_PORT="db port here"<br/>
 
+## Team members
+1. 221027 Gabriela Ristevska
+2. 221075 Slavco Mickovski
