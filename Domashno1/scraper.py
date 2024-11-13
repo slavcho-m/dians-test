@@ -99,7 +99,6 @@ def fetch_issuer_data(args):
                     row_data = row.find_all("td")
                     if len(row_data) < 9:
                         continue
-                    # Skip records with null min or max price
                     min_price = row_data[3].text.strip() or None
                     max_price = row_data[2].text.strip() or None
                     if min_price is None or max_price is None:
